@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="radioTest" time="0.114" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="radioTest" time="0.009" tests="16" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="D:\Java122\target\test-classes;D:\Java122\target\classes;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ktyec\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.class.path" value="D:\Java\Java122\target\test-classes;D:\Java\Java122\target\classes;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ktyec\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\ktyec\.jdks\corretto-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\ktyec\AppData\Local\Temp\surefire3196414319258133561\surefirebooter6932972688598837137.jar C:\Users\ktyec\AppData\Local\Temp\surefire3196414319258133561 2023-02-11T19-11-03_620-jvmRun1 surefire12025240012401028265tmp surefire_05626000996792667837tmp"/>
+    <property name="sun.java.command" value="C:\Users\ktyec\AppData\Local\Temp\surefire852970721224977697\surefirebooter16985170749394000944.jar C:\Users\ktyec\AppData\Local\Temp\surefire852970721224977697 2023-02-22T21-48-11_127-jvmRun1 surefire18052089451803887213tmp surefire_016582227312739247673tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\Java122\target\test-classes;D:\Java122\target\classes;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ktyec\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="surefire.test.class.path" value="D:\Java\Java122\target\test-classes;D:\Java\Java122\target\classes;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ktyec\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ktyec"/>
     <property name="user.language" value="ru"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2022-10-18"/>
     <property name="java.home" value="C:\Users\ktyec\.jdks\corretto-11.0.17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\Java122"/>
+    <property name="basedir" value="D:\Java\Java122"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ktyec\AppData\Local\Temp\surefire3196414319258133561\surefirebooter6932972688598837137.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ktyec\AppData\Local\Temp\surefire852970721224977697\surefirebooter16985170749394000944.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8-LTS"/>
@@ -49,7 +49,7 @@
     <property name="java.io.tmpdir" value="C:\Users\ktyec\AppData\Local\Temp\"/>
     <property name="idea.version" value="2022.3.1"/>
     <property name="java.version" value="11.0.17"/>
-    <property name="user.dir" value="D:\Java122"/>
+    <property name="user.dir" value="D:\Java\Java122"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,20 +61,32 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldNextNotStation" classname="radioTest" time="0.057"/>
+  <testcase name="shouldNextNotStation" classname="radioTest" time="0"/>
   <testcase name="shouldCurrentRadio" classname="radioTest" time="0"/>
   <testcase name="shouldNePrevStation" classname="radioTest" time="0"/>
   <testcase name="shouldCurrentNotVolume" classname="radioTest" time="0"/>
   <testcase name="shouldCurrent1Radio" classname="radioTest" time="0"/>
   <testcase name="shouldNextStation" classname="radioTest" time="0"/>
-  <testcase name="shouldNext1Station" classname="radioTest" time="0.001"/>
+  <testcase name="shouldNext1Station" classname="radioTest" time="0"/>
   <testcase name="shouldDecreaseVolume" classname="radioTest" time="0"/>
-  <testcase name="shouldSet11Volume" classname="radioTest" time="0"/>
-  <testcase name="shouldNePrev1Station" classname="radioTest" time="0.001"/>
-  <testcase name="shouldDecrease1Volume" classname="radioTest" time="0.012"/>
+  <testcase name="shouldSet11Volume" classname="radioTest" time="0.003">
+    <failure message="expected: &lt;0&gt; but was: &lt;11&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <11>
+	at radioTest.shouldSet11Volume(radioTest.java:143)
+]]></failure>
+  </testcase>
+  <testcase name="shouldNePrev1Station" classname="radioTest" time="0"/>
+  <testcase name="shouldDecrease1Volume" classname="radioTest" time="0"/>
   <testcase name="shouldCurrentVolume" classname="radioTest" time="0"/>
-  <testcase name="shouldAnyVolume" classname="radioTest" time="0"/>
+  <testcase name="shouldAnyVolume" classname="radioTest" time="0">
+    <failure message="expected: &lt;0&gt; but was: &lt;12&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <12>
+	at radioTest.shouldAnyVolume(radioTest.java:211)
+]]></failure>
+  </testcase>
   <testcase name="shouldNextVolume" classname="radioTest" time="0"/>
   <testcase name="shouldSet0Volume" classname="radioTest" time="0"/>
-  <testcase name="shouldDNext1Volume" classname="radioTest" time="0.001"/>
+  <testcase name="shouldDNext1Volume" classname="radioTest" time="0.004">
+    <failure message="expected: &lt;10&gt; but was: &lt;11&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <10> but was: <11>
+	at radioTest.shouldDNext1Volume(radioTest.java:198)
+]]></failure>
+  </testcase>
 </testsuite>
