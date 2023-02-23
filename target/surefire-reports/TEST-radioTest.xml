@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="radioTest" time="0.009" tests="16" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="radioTest" time="0.001" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\ktyec\.jdks\corretto-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\ktyec\AppData\Local\Temp\surefire852970721224977697\surefirebooter16985170749394000944.jar C:\Users\ktyec\AppData\Local\Temp\surefire852970721224977697 2023-02-22T21-48-11_127-jvmRun1 surefire18052089451803887213tmp surefire_016582227312739247673tmp"/>
+    <property name="sun.java.command" value="C:\Users\ktyec\AppData\Local\Temp\surefire743477965128242956\surefirebooter16072032057873888197.jar C:\Users\ktyec\AppData\Local\Temp\surefire743477965128242956 2023-02-23T13-40-04_677-jvmRun1 surefire6792600357980126325tmp surefire_017315491197583354873tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Java\Java122\target\test-classes;D:\Java\Java122\target\classes;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ktyec\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\ktyec\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ktyec\AppData\Local\Temp\surefire852970721224977697\surefirebooter16985170749394000944.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ktyec\AppData\Local\Temp\surefire743477965128242956\surefirebooter16072032057873888197.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8-LTS"/>
@@ -54,7 +54,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Users\ktyec\.jdks\corretto-11.0.17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot\bin;C:\Windows\System32\HWAudioDriverLibs;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\ktyec\AppData\Local\Microsoft\WindowsApps;;C:\Users\ktyec\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Users\ktyec\.jdks\corretto-11.0.17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot\bin;C:\Windows\System32\HWAudioDriverLibs;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ktyec\AppData\Local\Microsoft\WindowsApps;;C:\Users\ktyec\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
     <property name="java.vm.version" value="11.0.17+8-LTS"/>
@@ -69,24 +69,12 @@
   <testcase name="shouldNextStation" classname="radioTest" time="0"/>
   <testcase name="shouldNext1Station" classname="radioTest" time="0"/>
   <testcase name="shouldDecreaseVolume" classname="radioTest" time="0"/>
-  <testcase name="shouldSet11Volume" classname="radioTest" time="0.003">
-    <failure message="expected: &lt;0&gt; but was: &lt;11&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <11>
-	at radioTest.shouldSet11Volume(radioTest.java:143)
-]]></failure>
-  </testcase>
+  <testcase name="shouldSet11Volume" classname="radioTest" time="0"/>
   <testcase name="shouldNePrev1Station" classname="radioTest" time="0"/>
   <testcase name="shouldDecrease1Volume" classname="radioTest" time="0"/>
   <testcase name="shouldCurrentVolume" classname="radioTest" time="0"/>
-  <testcase name="shouldAnyVolume" classname="radioTest" time="0">
-    <failure message="expected: &lt;0&gt; but was: &lt;12&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <12>
-	at radioTest.shouldAnyVolume(radioTest.java:211)
-]]></failure>
-  </testcase>
+  <testcase name="shouldAnyVolume" classname="radioTest" time="0"/>
   <testcase name="shouldNextVolume" classname="radioTest" time="0"/>
   <testcase name="shouldSet0Volume" classname="radioTest" time="0"/>
-  <testcase name="shouldDNext1Volume" classname="radioTest" time="0.004">
-    <failure message="expected: &lt;10&gt; but was: &lt;11&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <10> but was: <11>
-	at radioTest.shouldDNext1Volume(radioTest.java:198)
-]]></failure>
-  </testcase>
+  <testcase name="shouldDNext1Volume" classname="radioTest" time="0"/>
 </testsuite>

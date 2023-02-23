@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: radioTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in radioTest
-shouldSet11Volume  Time elapsed: 0.003 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <0> but was: <11>
-	at radioTest.shouldSet11Volume(radioTest.java:143)
-
-shouldAnyVolume  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <0> but was: <12>
-	at radioTest.shouldAnyVolume(radioTest.java:211)
-
-shouldDNext1Volume  Time elapsed: 0.004 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <10> but was: <11>
-	at radioTest.shouldDNext1Volume(radioTest.java:198)
-
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in radioTest
